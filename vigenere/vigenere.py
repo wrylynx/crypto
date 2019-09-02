@@ -124,7 +124,7 @@ def init():
 						output.write(messagetext)
 						return 0 
 				else:
-					print("\nUsage: <program> <option: -e -d> <input file>\n")
+					print("\nUsage: <program> <option: -e -d> <message/cipher file>\n")
 					return 1;
 			else:
 				print('Error: message too long!\nPlease try again with a smaller one');
