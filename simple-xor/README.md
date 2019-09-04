@@ -11,3 +11,4 @@ Next steps are:
 
 1) automatic key generation
 2) secure message/key transfer between parties.
+3) please expect more algorithms in the crypto.git repo!!
