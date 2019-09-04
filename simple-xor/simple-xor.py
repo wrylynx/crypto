@@ -17,7 +17,6 @@ def encrypt(infile, key):
 
 	encrypt_subset = []
 	cipherstring = ''
-	MATRIX_SIZE = len(encrypt_matrix)
 	KEY_SIZE = len(key)
 
 	''' *********STRING SEGMENTATION SECTION***********'''
@@ -53,7 +52,6 @@ def decrypt(infile, key):
 
 	decrypt_subset = []
 	messagestring = ''
-	MATRIX_SIZE = len(decrypt_matrix)
 	KEY_SIZE = len(key)
 
 	
