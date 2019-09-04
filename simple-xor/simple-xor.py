@@ -7,11 +7,6 @@ BLOCK_SIZE = 16
 MAX_NUM_BLOCKS = 256
 MAX_SIZE = 4096
 
-encrypt_matrix = [3, 12, -5, 17]
-decrypt_matrix = [encrypt_matrix[3], (encrypt_matrix[1] * -1), (encrypt_matrix[2] * -1), encrypt_matrix[0]]
-
-determinant = (1 / ((encrypt_matrix[0] * encrypt_matrix[3]) - (encrypt_matrix[1] * encrypt_matrix[2])))
-
 
 def encrypt(infile, key):
 
